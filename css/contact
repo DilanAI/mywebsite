@@ -1,0 +1,55 @@
+/* Ensure consistent font and color */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-info {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-method .icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.contact-method h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-method p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.contact-method a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-method a:hover {
+    text-decoration: underline;
+}
